@@ -1,0 +1,9 @@
+<html>
+	<head>
+		<title><%= it.title %></title>
+	</head>
+	<body>
+		<%= it.title %>
+		<%= _.render('./views/simple.html', { text: it.text }) %>
+	</body>
+</html>

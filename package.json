@@ -4,7 +4,7 @@
   "author": "Renan Couto <renancouto@gmail.com>",
   "description": "Underscore templating in Express like a boss",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha -R list"
   },
   "main": "./lib/underscore-layout.js",
   "repository": {
@@ -20,7 +20,8 @@
   "devDependencies": {
     "underscore": "*",
     "mocha": "*",
-    "assert": "*"
+    "assert": "*",
+    "chai": "*"
   },
   "license": "MIT",
   "engines": {
