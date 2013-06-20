@@ -1,0 +1,29 @@
+{
+  "name": "underscore-layout",
+  "version": "0.0.1",
+  "author": "Renan Couto <renancouto@gmail.com>",
+  "description": "Underscore templating in Express like a boss",
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./lib/underscore-layout.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renancouto/underscore-layout"
+  },
+  "keywords": [
+    "underscore",
+    "template",
+    "engine",
+    "layout"
+  ],
+  "devDependencies": {
+    "underscore": "*",
+    "mocha": "*",
+    "assert": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
