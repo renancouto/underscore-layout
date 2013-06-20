@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "author": "Renan Couto <renancouto@gmail.com>",
   "description": "Underscore templating in Express like a boss",
+  "contributors": [
+    {
+      "name": "Renan Couto",
+      "email": "renancouto@gmail.com"
+    }
+  ],
   "scripts": {
     "test": "mocha -R list"
   },
